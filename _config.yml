@@ -96,4 +96,8 @@ jsonContent:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/s40523121/cd2018
+  branch: [gh-pages]
+  message: "Blog-update"
+
